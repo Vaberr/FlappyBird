@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="all">
+        <div class="name"><img src = "name.png" id="name"></div>
+        <div class="canvas"><canvas id="canvas"></canvas>
+        <div class="table"><p >Your score: <span id="score">0</span></p>
+            <img src="teleg.png" onclick="market()">
+            </div>
+            <dialog id="dialog"> 
+                <form method="dialog">
+                    <button class="butClose" class="butClose">x</button>
+               </form>
+               <h1 id="allscore"></h1>
+               <div class="dialigdiv">
+                <div class="market">
+                    <img src="bird1.png">
+                    <button  onclick="bird1()">10$</button>
+                </div>    
+               <div class="market">    
+                    <img src="bird2.png">
+                    <button onclick="angry()">15$</button>
+                </div> 
+               <div class="market">    
+                    <img src="hamburger.png">
+                    <button  onclick="hamburger()">15$</button>
+                </div> 
+               <div class="market">  
+                    <img src="heart.png">
+                    <button  onclick="heart()">20$</button>
+                </div>
+               <div class="market">
+                    <img src="strar.png">
+                    <button  onclick="star()">20$</button>
+                </div>
+               <div class="market">
+                    <img src="cat.png">
+                    <button  onclick="cat()">35$</button>
+                </div>
+               </div>
+                  </dialog>   
+           
+        
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
